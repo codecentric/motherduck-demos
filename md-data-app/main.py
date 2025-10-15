@@ -22,7 +22,7 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div([
     html.H2("📊 StackOverflow Posts Explorer"),
-
+    html.Label("Data between 2022-03-05 and 2023-03-05"),
     html.Div([
         html.Label("Cache data?"),
         dcc.RadioItems(
